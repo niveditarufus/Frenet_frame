@@ -7,8 +7,6 @@ import rospy
 import tf
 from bresenham import bresenham
 from matplotlib import pyplot as plt
-import matplotlib.animation as animation
-from math import sin, cos, sqrt, atan2, radians
 
 
 coords = np.loadtxt('gps_waypoint.txt',delimiter=' ')
